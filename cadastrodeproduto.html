@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Cadastro de produto - Free Market</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<header>
+	<div class="caixa">
+		<h1><img src="logocarrinho.png" alt="Logo da Free Market"></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home - Gestão de cadastro</a></li>
+				<li><a href="cadastrodeproduto.html">Cadastro de produtos</a></li>
+				<li><a href="cadastrodecliente.html">Cadastro de cliente</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<body>
+	<div>Confirme os dados antes de enviar</div>
+	<form>
+		<label for="codigoproduto">Código do produto</label>
+		<input type="text" id="codigoproduto" class="input-padrao" required>
+
+		<label for="produto">Produto</label>
+		<input type="text" id="produto" class="input-padrao" required>
+
+		<label for="descricao">Descrição</label>
+		<input type="text" id="descricao" class="input-padrao" required>
+
+		<label for="qtd">Quantidade</label>
+		<input type="number" id="qtd" class="input-padrao" required>
+
+		<input type="submit" value="Cadastrar produto" class="enviar">
+	</form>
+
+	<footer>
+		<img src="logobranco.png" alt="Logo da Free Market">
+		<p class="copyright">&copy; Copyright Free Market - 2021</p>
+	</footer>
+</body>
+
+</html>
